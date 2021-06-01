@@ -5,9 +5,6 @@ const Header = () => {
   return (
     <div className="header">
       <h1 className="header-title">Hosei Salon</h1>
-      <h1 className="header-title">Hosei Salon</h1>
-      <h1 className="header-title">Hosei Salon</h1>
-      <h1 className="header-title">Hosei Salon</h1>
       <div className="header-wrap">
         <p className="header-contents">MENU</p>
         <p className="header-contents">CONCEPT</p>

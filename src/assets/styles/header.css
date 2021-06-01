@@ -1,11 +1,14 @@
 .header {
     display: flex;
     justify-content: left;
+    width: 100%;
 }
 
 .header-title {
     font-size: 3.8rem;
     margin-left: 7.7rem;
+    display: block;
+    letter-spacing: 3px;
 }
 
 .header-wrap {
@@ -15,6 +18,9 @@
 }
 
 .header-contents{
+    width: auto;
+    letter-spacing: 1px;
     margin-left: 2rem;
     color: #707070;
+    border-bottom: 1px solid darkgrey;
 }

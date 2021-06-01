@@ -1,0 +1,66 @@
+.first-v {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.first-img {
+    width: 60%;
+}
+
+.hosei-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.first-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.first-name {
+    font-size: 3.8rem;
+    font: normal normal normal 38px/65px Hiragino Mincho Pro;
+}
+
+.second-name {
+    font-size: 3.8rem;
+    font: normal normal normal 38px/128px Zapfino;
+}
+
+@media screen  and (max-width: 900px) {
+
+    .first-v {
+        display: block;
+    }
+
+    .first-img {
+        width: 100%;
+    }
+    .first-txt {
+        left: 50%;
+        flex-direction: column-reverse;
+        color: #fff;
+        height: 0;
+        top: 75%;
+        width: 100%;
+    }
+    .first-name {
+        font-size: 2.8rem;
+    }
+
+    .second-name {
+        font-size: 3.4rem;
+    }
+}
