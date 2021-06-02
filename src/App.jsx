@@ -5,7 +5,8 @@ import First from "./components/First";
 import Concept from "./components/Concept";
 import Menu from "./components/Menu";
 import Access from "./components/Access";
-// import Footer from "./components/Footer";
+import Reserve from "./components/Reserve";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <Concept />
       <Menu />
       <Access />
-      {/* <Footer /> */}
+      <Reserve />
+      <Footer />
     </>
   );
 };
