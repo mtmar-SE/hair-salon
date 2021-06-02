@@ -3,8 +3,8 @@ import "./assets/styles/main.css";
 // import Header from "./components/Header";
 import First from "./components/First";
 import Concept from "./components/Concept";
-// import Menu from "./components/Menu";
-// import Access from "./components/Access";
+import Menu from "./components/Menu";
+import Access from "./components/Access";
 // import Footer from "./components/Footer";
 
 const App = () => {
@@ -13,9 +13,9 @@ const App = () => {
       {/* <Header /> */}
       <First />
       <Concept />
-      {/* <Menu />
+      <Menu />
       <Access />
-      <Footer /> */}
+      {/* <Footer /> */}
     </>
   );
 };

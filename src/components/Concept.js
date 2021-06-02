@@ -7,7 +7,7 @@ const Concept = () => {
   return (
     <section id="concept">
       <div className="concept-main">
-        <p className="title">Concept</p>
+        <p className="title-concept">Concept</p>
         <div className="concept-img">
           <img className="model1" src={Model1} alt="" />
           <img className="model2" src={Model2} alt="" />
