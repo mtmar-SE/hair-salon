@@ -1,0 +1,118 @@
+
+#concept {
+    height: 110vh;
+    background: linear-gradient(180deg, #A193861F 0%,  #A1938615 35%, #A1938689 0%, #A1938689 100%);
+}
+
+.concept-main {
+    height: 70%;
+    padding: 0 107px;
+    position: relative;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 2.4rem;
+    color: #707070;
+    margin: 0 0 15px 0;
+    font: normal normal normal 18px/24px Roboto;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.title:after {
+    border-top: 1px solid ;
+    content: "";
+    width: 8rem;
+}
+
+.title:after {
+    margin-left: 2rem;
+}
+
+.concept-img {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model1 {
+    width: 65%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.model2 {
+    margin-left: 15px;
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.concept-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.concept-theme {
+    width: 50%;
+    font: normal normal normal 38px/65px Hiragino Mincho Pro;
+}
+
+.concept-desc {
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+/* tab */
+@media screen and (max-width: 900px) {
+
+    #concept {
+        height: 90vh;
+    }
+
+
+    .concept-img {
+        height: 300px;
+    }
+    .model1 , .model2 {
+        width: 50%;
+    }
+}
+
+/* sp */
+
+@media screen and (max-width: 600px) {
+    
+    .concept-main {
+        padding: 0 21px;
+    }
+    
+    .concept-wrap {
+        flex-direction: column;
+    }
+
+
+.concept-theme {
+    width: 100%;
+    font: normal normal normal 38px/65px Hiragino Mincho Pro;
+}
+
+.concept-desc {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+    .concept-img {
+        height: 200px;
+    }
+}
