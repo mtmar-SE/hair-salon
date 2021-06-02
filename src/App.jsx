@@ -1,6 +1,6 @@
 import React from "react";
 import "./assets/styles/main.css";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import First from "./components/First";
 import Concept from "./components/Concept";
 import Menu from "./components/Menu";
@@ -10,7 +10,7 @@ import Access from "./components/Access";
 const App = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <First />
       <Concept />
       <Menu />
