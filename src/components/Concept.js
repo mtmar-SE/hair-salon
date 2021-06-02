@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/concept.css";
-import Model1 from "../assets/img/model1.jpeg";
-import Model2 from "../assets/img/model2.jpeg";
+import Reiya from "../assets/img/Reiya.jpg";
+import Ibuki from "../assets/img/Ibuki.jpg";
 
 const Concept = () => {
   return (
@@ -9,8 +9,8 @@ const Concept = () => {
       <div className="concept-main">
         <p className="title-concept">Concept</p>
         <div className="concept-img">
-          <img className="model1" src={Model1} alt="" />
-          <img className="model2" src={Model2} alt="" />
+          <img className="model1" src={Reiya} alt="" />
+          <img className="model2" src={Ibuki} alt="" />
         </div>
         <div className="concept-wrap">
           <h2 className="concept-theme">Men'sExpart</h2>

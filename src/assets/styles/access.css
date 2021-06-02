@@ -20,7 +20,7 @@
     font: normal normal normal 18px/24px Roboto;
     display: flex;
     align-items: center;
-    justify-self: center;
+    justify-self: left;
 }
 
 .title-access:after {
@@ -69,10 +69,6 @@ iframe {
 
 @media screen and (max-width: 900px ) {
 
-    #access {
-        padding: 0 21px;
-    }
-
     .title-access {
         padding-top: 100px;
     }
@@ -105,3 +101,14 @@ iframe {
     }
 }
 
+
+@media screen and (max-width: 600px) {
+    #access {
+        height: 100vh;
+        padding: 0 21px;
+    }
+
+    .title-access {
+        padding: 30px;
+    }
+}

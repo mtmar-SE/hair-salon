@@ -34,15 +34,18 @@
 }
 
 @media screen and (max-width: 900px) {
-  #reserve {
-    padding: 0 21px;
-  }
 
   .reserve-txt {
     flex-direction: column;
   }
 }
 
+@media screen and (max-width: 600px) {
+  #reserve {
+    height: 70vh;
+    padding: 0 21px;
+  }
+}
 
 
 /* reserve用のボタンcss */

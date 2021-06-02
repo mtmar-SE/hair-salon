@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/first.css";
-import Hosei from "../assets/img/Hosei.png";
+import Hosei from "../assets/img/Hosei.jpg";
 
 const First = () => {
   return (

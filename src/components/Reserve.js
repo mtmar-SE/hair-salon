@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/reserve.css";
-import Hosei from "../assets/img/model2.jpeg";
+import Hosei2 from "../assets/img/Hosei2.jpg";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Link from "@material-ui/core/Link";
 
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="reserve-box">
         <hr></hr>
         <div className="reserve-txt">
-          <img className="my-icon" src={Hosei} alt="me" />
+          <img className="my-icon" src={Hosei2} alt="me" />
           <h1 className="reserve-title">Hosei Salon</h1>
           <div className="icon-box">
             <Link href="https://www.instagram.com/hosei.0302" target="_blank">

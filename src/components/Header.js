@@ -4,12 +4,30 @@ import "../assets/styles/header.css";
 const Header = () => {
   return (
     <div className="header">
-      <h1 className="header-title">Hosei Salon</h1>
+      <h1 className="header-title">HoseiSalon</h1>
       <div className="header-wrap">
-        <p className="header-contents">MENU</p>
-        <p className="header-contents">CONCEPT</p>
-        <p className="header-contents">ACCESS</p>
-        <p className="header-contents">RESERVE</p>
+        <ul>
+          <li>
+            <a href="#menu" className="header-contents">
+              MENU
+            </a>
+          </li>
+          <li>
+            <a href="#concept" className="header-contents">
+              CONCEPT
+            </a>
+          </li>
+          <li>
+            <a href="#access" className="header-contents">
+              ACCESS
+            </a>
+          </li>
+          <li>
+            <a href="#reserve" className="header-contents">
+              RESERVE
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
