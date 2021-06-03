@@ -21,8 +21,10 @@
 }
 
 .reserve-title {
-    font-size: 3rem;
-    color: #7070704D;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    color: #809eae;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .my-icon {
