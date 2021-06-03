@@ -14,25 +14,27 @@ const Menu = () => {
             <img className="menu-img" src={Model} alt="menu" />
             <h2 className="menu-title">Cut</h2>
             <p className="menu-desc">
-              髪をカットできます。メンズ専門でマッシュスタイルやウルフスタイルが得意です。お客様に合わせてカットするので気楽にご来店ください。
+              技術向上のためメンズカットモデルを募集してます。マッシュのスタイルのみ営業時間外での施術になりますのでご注意下さい！<br></br>
+              【※口コミを書いていただける方限定です‍】
             </p>
-            <h3 className="menu-bill">¥1000円（税込）</h3>
+            <h3 className="menu-bill">¥0円（税込）</h3>
           </div>
           <div className="menu-cards">
             <img className="menu-img" src={Ikumu} alt="menu" />
-            <h2 className="menu-title">Cut</h2>
+            <h2 className="menu-title">Color</h2>
             <p className="menu-desc">
-              髪をカットできます。メンズ専門でマッシュスタイルやウルフスタイルが得意です。お客様に合わせてカットするので気楽にご来店ください。
+              メンズ限定でカラーモデルさんを募集しています。ブリーチなしのワンカラーになります。営業時間外での施術になりますのでご注意ください！<br></br>
+              【※1日1人限定です】
             </p>
-            <h3 className="menu-bill">¥1000円（税込）</h3>
+            <h3 className="menu-bill">¥1500円（税込）</h3>
           </div>
           <div className="menu-cards">
             <img className="menu-img" src={Motoki} alt="menu" />
-            <h2 className="menu-title">Cut</h2>
+            <h2 className="menu-title">Photo Shoot</h2>
             <p className="menu-desc">
-              髪をカットできます。メンズ専門でマッシュスタイルやウルフスタイルが得意です。お客様に合わせてカットするので気楽にご来店ください。
+            セットをさせてもらった後に撮影させて頂きます。マッシュ、センターパート、ウルフなどのスタイルだと嬉しいです<br></br>【※フェード、ブレイズなどの特殊なスタイルはお断りします】
             </p>
-            <h3 className="menu-bill">¥1500円（税込）</h3>
+            <h3 className="menu-bill">¥0円（税込）</h3>
           </div>
         </div>
       </div>

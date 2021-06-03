@@ -16,7 +16,11 @@ const Footer = () => {
             <Link href="https://www.instagram.com/hosei.0302" target="_blank">
               <InstagramIcon
                 className="myicon"
-                style={{ fontSize: 40, color: "#809eae", marginRight: 20 }}
+                style={{
+                  fontSize: 40,
+                  color: "#809eae",
+                  marginRight: 20,
+                }}
               />
             </Link>
             <div class="container">

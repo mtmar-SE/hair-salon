@@ -3,7 +3,7 @@ import "../assets/styles/header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <section id="header">
       <h1 className="header-title">HoseiSalon</h1>
       <div className="header-wrap">
         <ul>
@@ -29,7 +29,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

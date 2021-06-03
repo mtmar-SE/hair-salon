@@ -13,10 +13,12 @@ const Concept = () => {
           <img className="model2" src={Ibuki} alt="" />
         </div>
         <div className="concept-wrap">
-          <h2 className="concept-theme">Men'sExpart</h2>
+          <h2 className="concept-theme">Men's Expart</h2>
           <p className="concept-desc">
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキスト
+          メンズ専門の美容師です。アシスタント/研修歴 1年<br></br>
+          マッシュ・センターパート・ウルフスタイルが得意です！
+          お客様の骨格に合わせた似合わせカット、パーソナルカラーに合わせたカラーをご提案させて頂きます。<br></br>
+          ぜひ皆様のご来店をお待ちしております!
           </p>
         </div>
       </div>
